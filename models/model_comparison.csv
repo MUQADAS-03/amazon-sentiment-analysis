@@ -1,0 +1,4 @@
+Model,Accuracy,Precision,Recall,F1-Score
+Logistic Regression,0.9061,0.9583,0.9376,0.9479
+Multinomial Naive Bayes,0.9105,0.9105,1.0,0.9531
+Linear SVM,0.9214,0.93,0.988,0.9581
