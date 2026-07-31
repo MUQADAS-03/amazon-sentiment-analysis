@@ -29,7 +29,7 @@ accurate on paper but is practically useless at catching negative reviews.
 
 ```
 .
-├── notebooks/
+├── notebook/
 │   └── week5_nlp.ipynb        # Part 1 — full NLP pipeline, all cells executed with outputs
 ├── app.py                     # Part 2 — Streamlit dashboard entry point
 ├── data/
@@ -49,7 +49,7 @@ accurate on paper but is practically useless at catching negative reviews.
 └── README.md
 ```
 
-## Part 1 — Notebook (`notebooks/week5_nlp.ipynb`)
+## Part 1 — Notebook (`notebook/week5_nlp.ipynb`)
 
 1. **Load and inspect** the dataset; check shape, nulls, and class distribution.
 2. **Clean review text** — lowercasing, URL/HTML/punctuation removal, stopword removal (from
@@ -97,20 +97,23 @@ streamlit run app.py
 
 **Class distribution** — visualizing the ~10.2 : 1 positive/negative imbalance:
 
-![Class distribution](assets/class_distribution.png)
+![Class distribution](<img width="684" height="483" alt="image" src="https://github.com/user-attachments/assets/c6a25cab-1ace-4a88-b800-7a89b0ed0b95" />
+)
 
 **Word clouds** — positive reviews are dominated by *love, great, easy, work, use, sound*;
 negative reviews cluster around *disappointed, return, poor, stopped working, waste*:
 
-![Word clouds](assets/wordclouds.png)
+![Word clouds](<img width="1584" height="558" alt="image" src="https://github.com/user-attachments/assets/4b791f53-3a02-4821-97b9-981b51eb67e1" />
+)
 
 **Confusion matrices** — all three trained models side by side on the held-out test set:
 
-![Confusion matrices](assets/confusion_matrices.png)
-
+![Confusion matrices](<img width="1784" height="517" alt="image" src="https://github.com/user-attachments/assets/86131b06-442f-46fb-bb54-2942338cd204" />
+)
 **Model comparison** — Accuracy, Precision, Recall, and F1-Score across all three models:
 
-![Model comparison](assets/model_comparison.png)
+![Model comparison](<img width="984" height="581" alt="image" src="https://github.com/user-attachments/assets/accfd318-e6b4-4f1e-8afa-5dc90ea02526" />
+)
 
 ## Quantitative Insights
 
