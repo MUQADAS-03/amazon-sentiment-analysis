@@ -1,4 +1,4 @@
-# Week 5 — NLP & Sentiment Analysis Dashboard
+# NLP & Sentiment Analysis Dashboard
 
 ## Overview
 
