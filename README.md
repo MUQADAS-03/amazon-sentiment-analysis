@@ -97,7 +97,7 @@ streamlit run app.py
 
 **Class distribution** — visualizing the ~10.2 : 1 positive/negative imbalance:
 
-![Class distribution](<img width="684" height="483" alt="image" src="https://github.com/user-attachments/assets/c6a25cab-1ace-4a88-b800-7a89b0ed0b95" />)
+<img width="684" height="483" alt="image" src="https://github.com/user-attachments/assets/c6a25cab-1ace-4a88-b800-7a89b0ed0b95" />
 
 **Word clouds** — positive reviews are dominated by *love, great, easy, work, use, sound*;
 negative reviews cluster around *disappointed, return, poor, stopped working, waste*:
